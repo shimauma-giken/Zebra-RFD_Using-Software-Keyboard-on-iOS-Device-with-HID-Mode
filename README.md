@@ -2,8 +2,7 @@
 
 Update: 2024/12/04
 
-
-![1733316143780](image/README/1733316143780.png)
+![](https://cdn.pixabay.com/photo/2014/11/12/15/48/ebook-528463_1280.jpg)
 
 <br/>
 
@@ -17,103 +16,83 @@ Update: 2024/12/04
 ![1733315773441](image/myios/1733315773441.png)
 
 1. iOS 端末
-1. Windows 10 以上のPC 
-1. Type A <> Type CのUSBケーブル
-1. Zebra RFDリーダー(Bluetooth モデル)
-
+2. Windows 10 以上のPC
+3. Type A <> Type CのUSBケーブル
+4. Zebra RFDリーダー(Bluetooth モデル)
 
 <br/>
-
 
 ### 設定手順
 
 1. Win-PCとRFDをUSB接続する。
+2. 123RFIDを起動する。123RFIDは下記リンクよりダウンロード可能。
 
-1. 123RFIDを起動する。123RFIDは下記リンクよりダウンロード可能。
+   [123RFID デスクトップ](https://www.zebra.com/jp/ja/support-downloads/software/rfid-software/123rfid.html)
+3. （推奨）123RFIDにて、RFDリーダを初期化する。
 
-    [123RFID デスクトップ](https://www.zebra.com/jp/ja/support-downloads/software/rfid-software/123rfid.html)
+   ▽ Factory Resetを選択
 
+   <img height="300" src="image/myios/1733313115429.png">
 
-1. （推奨）123RFIDにて、RFDリーダを初期化する。
+   <br/>
+   
+4. 下記設定を実行する。
 
-    ▽ Factory Resetを選択
+   General > Bluetooth Host Type > "HID-Keyboard"を選択 > Switchを押下
 
-    <img height="300" src="image/myios/1733313115429.png">
+   <img height="300" src="image/myios/1733313212201.png">
 
-	<br/>
+   <br/>
 
+   設定が成功した場合、下記メッセージが表示されます。
 
-1. 下記設定を実行する。
+   <img height="150" src="image/myios/1733313294102.png">`
 
-    General > Bluetooth Host Type > "HID-Keyboard"を選択 > Switchを押下
+   <br/>
+5. 下記の設定を実行する。
 
+   General > iOS HID Virtual Kayboard > "ENABLE"を選択
 
-    <img height="300" src="image/myios/1733313212201.png">
+   <img height="300" src="image/myios/1733313572884.png">
 
-	<br/>
+   <br/>
 
+7. 下記設定を実行する。
 
-    設定が成功した場合、下記メッセージが表示されます。
-    <img height="300" src="image/myios/1733313294102.png">
+   Save Config > "Saved to Reader"を選択
 
-	<br/>
+   <img height="300" src="image/myios/1733313748525.png">
 
+   <br/>
 
-1. USBケーブルを抜いて、下記の設定バーコードを読む。
+1. RFDからUSBケーブルを抜く。
 
-1. 下記設定を実行する。
-
-    General > iOS HID Virtual Kayboard > "ENABLE"を選択 
-
-    <img height="300" src="image/myios/1733313572884.png">
-
-	<br/>
-
-
-1. 下記設定を実行する。
-
-    Save Config > "Saved to Reader"を選択 
-
-    <img height="300" src="image/myios/1733313748525.png">
-
-	<br/>
-
-
+   <br/>
 
 ### 設定の確認
 
 1. iOS デバイスとBluetooth 接続する。
+2. HIDデータを受信できるアプリを起動する。本スレッドでは"メモ"アプリを前提に説明を進める。
+3. デフォルト状態ではソフトキーボードは非表示。
 
-1. HIDデータを受信できるアプリを起動する。本スレッドでは"メモ"アプリを前提に説明を進める。
+   <img height="300" src="image/myios/1733314323038.png">
 
-1. デフォルト状態ではソフトキーボードは非表示。
+   <br/>
+4. トリガー（下）を素早く２回引くことで、ソフトキーを表示させることができる。
 
-    <img height="300" src="image/myios/1733314323038.png">
+   ▽ 下記図の7を素早く２回引く。
 
-	<br/>
+   <img height="300" src="image/myios/1733314501594.png">
 
+   <br/>
 
-1. トリガー（下）を素早く２回引くことで、ソフトキーを表示させることができる。
+   ▽ ソフトキーが表示される。
 
-    ▽ 下記図の7を素早く２回引く。
+   <img height="300" src="image/myios/1733314624520.png">
 
-    <img height="300" src="image/myios/1733314501594.png">
+   <br/>
+5. ソフトキーを非表示にする場合は、同じ要領でトリガー（下）を素早く２回引く。
 
-	<br/>
-
-
-    ▽ ソフトキーが表示される。
-
-    <img height="300" src="image/myios/1733314624520.png">
-
-	<br/>
-
-
-
-1. ソフトキーを非表示にする場合は、同じ要領でトリガー（下）を素早く２回引く。
-
-	<br/>
+   <br/>
 
 以上
-
-
