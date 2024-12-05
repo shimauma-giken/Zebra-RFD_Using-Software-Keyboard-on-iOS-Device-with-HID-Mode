@@ -2,7 +2,7 @@
 
 Update: 2024/12/04
 
-![](https://cdn.pixabay.com/photo/2014/11/12/15/48/ebook-528463_1280.jpg)
+![](image/myios/ebook-528463_1280%20(1).jpg)
 
 <br/>
 
@@ -35,7 +35,7 @@ Update: 2024/12/04
    <img height="300" src="image/myios/1733313115429.png">
 
    <br/>
-   
+
 4. 下記設定を実行する。
 
    General > Bluetooth Host Type > "HID-Keyboard"を選択 > Switchを押下
